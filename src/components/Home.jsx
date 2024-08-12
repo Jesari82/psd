@@ -1,7 +1,8 @@
-
-
-
-
+import Portfolio from './Portfolio';
+import CallToAction from './CallToAction';
+import Blog from './Blog';
+import Services from "./Services";
+import Contact from "./Contact";
 
 function Home() {
 
