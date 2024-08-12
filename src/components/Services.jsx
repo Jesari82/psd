@@ -1,3 +1,5 @@
+import HappyClients from "./HappyClients";
+
 export default function Services() {
   return (
     <>
@@ -49,6 +51,7 @@ export default function Services() {
           </div>
         </div>
       </section>
+      <HappyClients />
     </>
   );
 }

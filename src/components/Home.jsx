@@ -1,5 +1,4 @@
 import Services from "./Services";
-import HappyClients from "./HappyClients";
 import Contact from "./Contact";
 
 function Home() {
@@ -9,7 +8,6 @@ function Home() {
         <h1>Hero</h1>
       </div>
       <Services />
-      <HappyClients />
       <Contact />
     </>
   );
