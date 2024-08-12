@@ -13,12 +13,14 @@ const Portfolio = () => {
   return (
     <section id="portfolio" className="text-center py-12">
       <h2 className="text-3xl font-bold mb-4">Portfolio</h2>
-      <p className="text-gray-600 mb-12">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+      <p className="text-gray-600 mb-12">There are many variations of passages of Lorem Ipsum available,<br />but the majority have suffered alteration.</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {projects.map((project) => (
           <div key={project.id} className="bg-white p-4 rounded-lg shadow-md">
             <img src={project.image} alt={project.title} className="w-full h-40 object-cover rounded-lg mb-4"/>
+            <p className="text-gray-500">UI-UX Design</p>
             <h3 className="text-xl font-semibold">{project.title}</h3>
+            <p className="text-gray-500">Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
             <button className="mt-4 bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg">
               Case Study
             </button>

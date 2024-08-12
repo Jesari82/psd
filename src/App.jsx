@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import Portfolio from './sections/Portfolio';
-import CallToAction from './sections/CallToAction';
-import Blog from './sections/Blog';
+import Portfolio from './components/Portfolio';
+import CallToAction from './components/CallToAction';
+import Blog from './components/Blog';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -18,7 +18,7 @@ function App() {
     </div>
        
     </>
-  )
+  );
 }
 
-export default App
+export default App;
