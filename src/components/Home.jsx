@@ -9,6 +9,8 @@ function Home() {
         <div className="home">
         <h1>Hero</h1>
         </div>
+
+    
     );
     }
 
