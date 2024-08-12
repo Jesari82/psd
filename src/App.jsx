@@ -5,16 +5,14 @@ import "./App.css";
 import Services from "./components/Services";
 import HappyClients from "./components/HappyClients";
 import Contact from "./components/Contact";
+import About from "./components/About";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <p>hello</p>
-      <Services />
-      <HappyClients />
-      <Contact />
+      <About />
     </>
   );
 }
