@@ -14,15 +14,15 @@ const About = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="relative  w-full h-full ">
+            <div className="  w-full h-full -translate-y-24">
               <img
                 src={social}
                 alt="Social Media"
-                className="absolute top-[-4rem] "
+                className=" w-full h-full object-cover"
               />
             </div>
           </div>
-          <div className="w-2/4 flex flex-col gap-8">
+          <div className="w-2/4 flex flex-col gap-8 pt-16">
             <h1 className="font-work-sans  font-semibold text-3xl text-left">
               I am Professional User Experience Designer
             </h1>
