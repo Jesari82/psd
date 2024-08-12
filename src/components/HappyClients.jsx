@@ -1,8 +1,8 @@
-export default function Contact() {
+export default function HappyClients() {
   return (
     <>
       <div>
-        <h1 className="font-bold text-lg">Let's discuss your Project</h1>
+        <h1 className="font-bold text-lg">Happy Clients</h1>
         <p>
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration.
