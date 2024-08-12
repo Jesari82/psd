@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import Portfolio from './sections/Portfolio';
+import CallToAction from './sections/CallToAction';
+import Blog from './sections/Blog';
 import './App.css'
 
 function App() {
@@ -8,7 +11,11 @@ function App() {
 
   return (
     <>
-      <p>hello</p>
+    <div className="App">
+      <Portfolio />
+      <CallToAction />
+      <Blog />
+    </div>
        
     </>
   )
