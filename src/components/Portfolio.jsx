@@ -49,7 +49,7 @@ const Portfolio = () => {
           </p>
         </div>
 
-        <div className="flex flex-col gap-[24px] w-[1920px] h-[976px] px-[300px]">
+        <div className="flex flex-col gap-[24px] h-[976px] px-[300px]">
           {projects.reduce((acc, project, index) => {
             if (index % 3 === 0) acc.push([]);
             acc[acc.length - 1].push(project);
