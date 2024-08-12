@@ -19,7 +19,7 @@ export default function Services() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
               purus arcu, varius eget velit non.
             </p>
-            <button className="py-[12px] px-6 bg-[#A53DFF] text-white font-bold text-lg rounded mt-12">
+            <button className="py-[12px] px-6 bg-[#A53DFF] text-white font-bold text-lg rounded mt-12 hover:bg-violet-600">
               Say Hello!
             </button>
           </div>
